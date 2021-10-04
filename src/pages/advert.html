@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../build/pages.min.css">
+    <link rel="icon" href="../img/fav-icon/fav-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Science Lyceum</title>
+</head>
+<body>
+
+<!--All-Content-->
+<div class="all-content">
+
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper container">
+            <div class="header__content">
+
+                <div class="header__logo">
+                    <a href="../../index.html"><img src="../img/logo.svg" width="200vw" alt=""></a>
+                </div>
+
+                <nav class="header__nav nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a href="../pages/galary.html">Галерея</a></li>
+                        <li class="nav__item"><a href="../pages/news.html">Новини</a></li>
+                        <li class="nav__item"><a style="user-select: none;text-decoration: underline;pointer-events: none;">Оголошення</a></li>
+                        <li class="nav__item"><a href="../pages/time-table.html">Розклад</a></li>
+                        <li class="nav__item"><a href="../pages/contact.html">Контакти</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger__open" onclick="openburger()">
+                    <span></span>
+                </button>
+
+                <div class="header__burger burger" id="burger">
+                    <button class="burger__close" id="close" onclick="closeburger()">
+                        <span></span>
+                    </button>
+
+                    <ul class="burger__items">
+                        <li class="burger__item"><a href="../pages/galary.html">Галерея</a></li>
+                        <li class="burger__item"><a href="../pages/news.html">Новини</a></li>
+                        <li class="burger__item"><a href="../pages/advert.html">Оголошення</a></li>
+                        <li class="burger__item"><a href="../pages/time-table.html">Розклад</a></li>
+                        <li class="burger__item"><a href="../pages/contact.html">Контакти</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main__wrapper container"></div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer__content">
+
+                <div class="footer__left">
+                    <div class="footer__logo">
+                        <a href="../../index.html"><img src="../img/logo.svg" width="200vw" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer__contact">
+                        <div class="footer__tel"><p>+380 765 885 276</p></div>
+                        <div class="footer__social">
+                            <a><img src="../img/icon/instagram.svg" alt=""></a>
+                            <a><img src="../img/icon/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../../build/pages.prod.js"></script>
+</body>
+</html>
