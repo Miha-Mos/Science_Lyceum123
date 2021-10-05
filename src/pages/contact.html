@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../build/pages.min.css">
+    <link rel="icon" href="../img/fav-icon/fav-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/wow.js/wow.css">
+    <title>Science Lyceum</title>
+</head>
+<body>
+
+<!--All-Content-->
+<div class="all-content">
+
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper container">
+            <div class="header__content">
+
+                <div class="header__logo">
+                    <a href="../../index.html"><img class="wow fadeIn" data-wow-delay="0.2s" src="../img/logo.svg" width="200vw" alt=""></a>
+                </div>
+
+                <nav class="header__nav nav">
+                    <ul class="nav__items">
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.3s"><a href="../pages/galary.html">Галерея</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.4s"><a href="../pages/news.html">Новини</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.5s"><a href="../pages/advert.html">Оголошення</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.6s"><a href="../pages/time-table.html">Розклад</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.7s"><a style="user-select: none;text-decoration: underline;pointer-events: none;">Контакти</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger__open wow bounceIn" data-wow-delay="0.3s" onclick="openburger()">
+                    <span></span>
+                </button>
+
+                <div class="header__burger burger" id="burger">
+                    <button class="burger__close" id="close" onclick="closeburger()">
+                        <span></span>
+                    </button>
+
+                    <ul class="burger__items">
+                        <li class="burger__item"><a href="../pages/galary.html">Галерея</a></li>
+                        <li class="burger__item"><a href="../pages/news.html">Новини</a></li>
+                        <li class="burger__item"><a href="../pages/advert.html">Оголошення</a></li>
+                        <li class="burger__item"><a href="../pages/time-table.html">Розклад</a></li>
+                        <li class="burger__item"><a href="../pages/contact.html">Контакти</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <section class="main">
+        <div class="main__wrapper container">
+
+            <!--Contact-->
+            <div class="main__contact contact">
+                <div class="contact__wrapper">
+
+                    <div class="contact__title title">
+                        <h1>Контактна інформація</h1>
+                    </div>
+
+                    <div class="contact__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1201.5690050335377!2d28.634833585937!3d50.24462340916054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c6493ebf252ed%3A0xb43a9b36503449d5!2z0JHQvtCz0YPQvdGB0LrQuNC5INGA0LDQudC-0L0sINCW0LjRgtC-0LzQuNGALCDQltC40YLQvtC80LjRgNGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAxMDAwMA!5e1!3m2!1sru!2sua!4v1633287298258!5m2!1sru!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <p>м.Житомир, вул.Чуднівська 103, 10005</p>
+                    </div>
+
+                    <div class="contact__info">
+
+                        <div class="contact__info_left">
+                            <img src="https://24tv.ua/resources/photos/news/1500x1018_DIR/202010/1434022_14648967.jpeg?202010162632" alt="">
+                            <p class="contact__info_director">Директор</p>
+                            <p class="contact__info_name">Венцель Наталья Василівна</p>
+                            <p class="contact__info_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi hic ad est odio deleniti quibusdam, temporibus enim rem impedit ipsa molestiae quae atque facere quos expedita harum corrupti? Ipsum, sequi.</p>
+                        </div>
+
+                        <div class="contact__info_right">
+                            <div class="form">
+
+                                <div class="form__caption title"><p>Зворотній зв'язок</p></div>
+
+                                <form action="#">
+                                    <input type="text" placeholder="Ім'я">
+                                    <input type="tel" placeholder="Телефон">
+                                    <input type="email" placeholder="Email">
+                                    <textarea placeholder="Ваше повідомлення"></textarea>
+                                    <button type="submit">Відправити</button>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer__content">
+
+                <div class="footer__left">
+                    <div class="footer__logo">
+                        <a href="../../index.html"><img class="wow fadeIn" data-wow-delay="0.2s" src="../img/logo.svg" width="200vw" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer__contact">
+                        <div class="footer__tel wow bounceIn" data-wow-delay="0.3s"><p>+380 765 885 276</p></div>
+                        <div class="footer__social">
+                            <a><img class="wow bounceIn" data-wow-delay="0.4s" src="../img/icon/instagram.svg" alt=""></a>
+                            <a><img class="wow bounceIn" data-wow-delay="0.5s" src="../img/icon/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../libs/wow.js/wow.min.js"></script>
+<script src="../../build/pages.prod.js"></script>
+</body>
+</html>
