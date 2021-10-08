@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../build/pages.min.css">
+    <link rel="icon" href="../img/fav-icon/fav-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/wow.js/wow.css">
+    <title>Science Lyceum</title>
+</head>
+<body>
+
+<!--All-Content-->
+<div class="all-content">
+
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper container">
+            <div class="header__content">
+
+                <div class="header__logo">
+                    <a href="../../index.html"><img class="wow fadeIn" data-wow-delay="0.2s" src="../img/logo.svg" width="200vw" alt=""></a>
+                </div>
+
+                <nav class="header__nav nav">
+                    <ul class="nav__items">
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.3s"><a href="../pages/galary.html">Галерея</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.4s"><a href="../pages/news.html">Новини</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.5s"><a href="../pages/advert.html">Оголошення</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.6s"><a style="user-select: none;text-decoration: underline;pointer-events: none;">Розклад</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.7s"><a href="../pages/contact.html">Контакти</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger__open wow bounceIn" data-wow-delay="0.3s" onclick="openburger()">
+                    <span></span>
+                </button>
+
+                <div class="header__burger burger" id="burger">
+                    <button class="burger__close" id="close" onclick="closeburger()">
+                        <span></span>
+                    </button>
+
+                    <ul class="burger__items">
+                        <li class="burger__item"><a href="../pages/galary.html">Галерея</a></li>
+                        <li class="burger__item"><a href="../pages/news.html">Новини</a></li>
+                        <li class="burger__item"><a href="../pages/advert.html">Оголошення</a></li>
+                        <li class="burger__item"><a href="../pages/time-table.html">Розклад</a></li>
+                        <li class="burger__item"><a href="../pages/contact.html">Контакти</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <section class="main">
+        <div class="main__wrapper container">
+
+            <!--Time-Table-->
+            <div class="time-table">
+                <div class="time-table__wrapper">
+
+                    <div class="time-table__title title wow fadeInDown">
+                        <h1>Розклад</h1>
+                    </div>
+
+                    <!--Class1-->
+                    <div class="time-table__block block wow fadeIn" data-wow-delay="0.4s">
+                        <div class="block__class">
+                            <p>10-А<p>
+                        </div>
+
+                        <div class="block__time-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Понеділок</th>
+                                        <th>Вівторок</th>
+                                        <th>Середа</th>
+                                        <th>Четверг</th>
+                                        <th>П'ятниця</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td>Математика</td>
+                                        <td>Англійська мова(1)/Українська мова(2)</td>
+                                        <td>Історія України</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td>Математика</td>
+                                        <td>Англійська мова(1)/Українська мова(2)</td>
+                                        <td>Історія України/Біологія</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Математика</td>
+                                        <td>Англійська мова(2)/Українська мова(1)</td>
+                                        <td>Математика</td>
+                                        <td>Біологія</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Математика</td>
+                                        <td>Англійська мова(2)/Українська мова(1)</td>
+                                        <td>Математика</td>
+                                        <td>Біологія</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Фізкультура</td>
+                                        <td>Фізика</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Українська література</td>
+                                        <td>Географія/Хімія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Фізкультура</td>
+                                        <td>Фізика</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Українська література</td>
+                                        <td>Математика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Громадянська освіта</td>
+                                        <td></td>
+                                        <td>Фізкультура</td>
+                                        <td>Математика</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Громадянська освіта</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Математика</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <!--Class2-->
+                    <div class="time-table__block block wow fadeIn" data-wow-delay="0.4s">
+                        <div class="block__class">
+                            <p>10-Б<p>
+                        </div>
+
+                        <div class="block__time-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Понеділок</th>
+                                        <th>Вівторок</th>
+                                        <th>Середа</th>
+                                        <th>Четверг</th>
+                                        <th>П'ятниця</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Математика</td>
+                                        <td>Англійська мова(1)/Українська мова (2)</td>
+                                        <td>Фізкультура</td>
+                                        <td>Математика</td>
+                                        <td>Математика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Математика</td>
+                                        <td>Англійська мова(1)/Українська мова (2)</td>
+                                        <td>Фізкультура</td>
+                                        <td>Математика</td>
+                                        <td>Географія/Хімія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td>Математика</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Історія України</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td>Математика</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Історія України/Біологія</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Громадянська освіта</td>
+                                        <td>Українська література</td>
+                                        <td>Математика</td>
+                                        <td>Біологія</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Громадянська освіта</td>
+                                        <td>Українська література</td>
+                                        <td>Математика</td>
+                                        <td>Фізика</td>
+                                        <td>Інформатика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Фізкультура</td>
+                                        <td></td>
+                                        <td>Фізика</td>
+                                        <td>Англійська мова(2)/Українська мова (1)</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Фізика</td>
+                                        <td>Англійська мова(2)/Українська мова (1)</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <!--Class3-->
+                    <div class="time-table__block block wow fadeIn" data-wow-delay="0.4s">
+                        <div class="block__class">
+                            <p>10-В<p>
+                        </div>
+
+                        <div class="block__time-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Понеділок</th>
+                                        <th>Вівторок</th>
+                                        <th>Середа</th>
+                                        <th>Четверг</th>
+                                        <th>П'ятниця</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Фізкультура</td>
+                                        <td>Фізика</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Фізика</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Громадянська освіта</td>
+                                        <td>Фізика</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Англійська мова</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Громадянська освіта</td>
+                                        <td>Інформатика</td>
+                                        <td>Фізкультура</td>
+                                        <td>Англійська мова</td>
+                                        <td>Географія/Хімія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Інформатика</td>
+                                        <td>Інформатика</td>
+                                        <td>Фізкультура</td>
+                                        <td>Математика</td>
+                                        <td>Математика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Англійська мова</td>
+                                        <td>Англійська мова</td>
+                                        <td>Українська література</td>
+                                        <td>Історія України</td>
+                                        <td>Математика</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Англійська мова</td>
+                                        <td>Східні мови</td>
+                                        <td>Українська література</td>
+                                        <td>Історія України/Біологія</td>
+                                        <td>Українська мова</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td></td>
+                                        <td>Східні мови</td>
+                                        <td>Біологія</td>
+                                        <td>Українська мова</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td></td>
+                                        <td>Східні мови</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <!--Class4-->
+                    <div class="time-table__block block wow fadeIn" data-wow-delay="0.4s">
+                        <div class="block__class">
+                            <p>10-Г<p>
+                        </div>
+
+                        <div class="block__time-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Понеділок</th>
+                                        <th>Вівторок</th>
+                                        <th>Середа</th>
+                                        <th>Четверг</th>
+                                        <th>П'ятниця</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Інформатика</td>
+                                        <td>Громадянська освіта</td>
+                                        <td>Математика</td>
+                                        <td>Біологія</td>
+                                        <td>Англійська мова</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Інформатика</td>
+                                        <td>Громадянська освіта</td>
+                                        <td>Математика</td>
+                                        <td>Фізика</td>
+                                        <td>Англійська мова</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Фізкультура</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Українська література</td>
+                                        <td>Фізика</td>
+                                        <td>Українська мова</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Англійська мова</td>
+                                        <td>Країнознавство/Всесвітня історія</td>
+                                        <td>Українська література</td>
+                                        <td>Англійська мова</td>
+                                        <td>Географія/Хімія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td>Інформатика</td>
+                                        <td>Фізкультура</td>
+                                        <td>Англійська мова</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Зарубіжна література/Захист України</td>
+                                        <td>Східні мови</td>
+                                        <td>Фізика</td>
+                                        <td>Математика</td>
+                                        <td>Хімія/Географія</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Східні мови</td>
+                                        <td>Історія України</td>
+                                        <td>Фізкультура</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Східні мови</td>
+                                        <td>Історія України/Біологія</td>
+                                        <td>Українська мова</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer__content">
+
+                <div class="footer__left">
+                    <div class="footer__logo">
+                        <a href="../../index.html"><img class="wow fadeIn" data-wow-delay="0.2s" src="../img/logo.svg" width="200vw" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer__contact">
+                        <div class="footer__tel wow bounceIn" data-wow-delay="0.3s"><p>+380 765 885 276</p></div>
+                        <div class="footer__social">
+                            <a><img class="wow bounceIn" data-wow-delay="0.4s" src="../img/icon/instagram.svg" alt=""></a>
+                            <a><img class="wow bounceIn" data-wow-delay="0.5s" src="../img/icon/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../libs/wow.js/wow.min.js"></script>
+<script src="../../build/pages.prod.js"></script>
+</body>
+</html>
