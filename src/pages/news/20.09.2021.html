@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" crossorigin>
+    <link rel="stylesheet preload" href="../../../build/pages.min.css">
+    <link rel="stylesheet preload" href="../../../build/news.min.css">
+    <link rel="stylesheet preload" href="../../libs/wow.js/wow.css">
+    <link rel="icon" href="../../img/fav-icon/fav-icon.png">
+    <link rel="stylesheet prefetch" href="../../libs/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet prefetch" href="../../libs/owlcarousel/assets/owl.theme.default.min.css">>
+    <title>Науковий ліцей</title>
+</head>
+<body>
+
+<!--All-Content-->
+<div class="all-content">
+
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper container">
+            <div class="header__content">
+
+                <div class="header__logo">
+                    <a href="../../../index.html"><img class="wow fadeIn" data-wow-delay="0.2s" src="../../img/logo.webp" width="200" alt=""></a>
+                </div>
+
+                <!--Navigation-->
+                <nav class="header__nav nav">
+                    <ul class="nav__items">
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.3s"><a href="../galary.html">Галерея</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.4s"><a href="../news.html">Новини</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.5s"><a href="../advert.html">Оголошення</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.6s"><a href="../time-table.html">Розклад</a></li>
+                        <li class="nav__item wow bounceIn" data-wow-delay="0.7s"><a href="../contact.html">Контакти</a></li>
+                    </ul>
+                </nav>
+
+                <!--Burger-Open-Btn-->
+                <button class="burger__open wow bounceIn" data-wow-delay="0.3s" onclick="openburger()">
+                    <span></span>
+                </button>
+
+                <!--Burger-->
+                <div class="header__burger burger" id="burger">
+                    <!--Burger-Close-Btn-->
+                    <button class="burger__close" id="close" onclick="closeburger()">
+                        <span></span>
+                    </button>
+
+                    <ul class="burger__items">
+                        <li class="burger__item"><a href="../galary.html">Галерея</a></li>
+                        <li class="burger__item"><a href="../news.html">Новини</a></li>
+                        <li class="burger__item"><a href="../advert.html">Оголошення</a></li>
+                        <li class="burger__item"><a href="../time-table.html">Розклад</a></li>
+                        <li class="burger__item"><a href="../contact.html">Контакти</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <section class="main">
+        <div class="main__wrapper container">
+
+            <!--News-->
+            <div class="news">
+                <div class="news__wrapper">
+                    <div class="news__content">
+                    
+                        <div class="news__imgs">
+                            <img class="large__img" id="img" src="../../img/news/20.09.2021/13.jpg" alt="">
+                            <div class="news__imgs_small owl-carousel owl-theme">
+
+                                <img class="news__img" src="../../img/news/20.09.2021/13.jpg" alt="">
+                                <img class="news__img" src="../../img/news/20.09.2021/14.jpg" alt="">
+                                <img class="news__img" src="../../img/news/20.09.2021/15.jpg" alt="">
+                                <img class="news__img" src="../../img/news/20.09.2021/16.jpg" alt="">
+
+                            </div>
+                        </div>
+
+                        <div class="news__text">
+                            <h1 class="caption">День здоров'я у Науковому ліцеї</h1>
+                            <p class="date">20.09.2021</p>
+                            <p class="text">
+                                У Науковому ліцеї Житомирської політехніки пройшов День здоров’я, під час якого учні разом із кураторами груп та вчителями грали в активні спортивні ігри, насолоджувались гарною погодою і природою рідного краю.
+
+                                Ліцеїсти не тільки провели товариські матчі з футболу, волейболу, пограли в бадмінтон, а й проявили вміння орієнтуватися на місцевості в інтелектуально-віртуальній вікторині.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <div class="footer__content">
+
+                <div class="footer__left">
+                    <div class="footer__logo">
+                        <a href="../../../index.html"><img class="wow fadeIn" data-wow-delay="0.2s" src="../../img/logo.webp" width="200" alt="Логотип"></a>
+                    </div>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer__tel wow bounceIn" data-wow-delay="0.2s">+380 765 885 276</div>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/ztueduua/"><img class="wow bounceIn" data-wow-delay="0.3s" src="../../img/icon/instagram.svg" alt="Инстаграм"></a>
+                        <a href="https://www.facebook.com/ztueduua/"><img class="wow bounceIn" data-wow-delay="0.4s" src="../../img/icon/facebook.svg" alt="Фейсбук"></a>
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin></script>
+<script src="../../libs/wow.js/wow.min.js"></script>
+<script src="../../../build/news.prod.js"></script>
+<script rel="prefetch" src="../../libs/owlcarousel/owl.carousel.min.js"></script>
+</body>
+</html>
